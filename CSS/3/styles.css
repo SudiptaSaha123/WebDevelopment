@@ -1,0 +1,11 @@
+h1{
+    background-color: aquamarine;
+}
+
+button:hover{
+    background-color: rgb(191, 237, 85);
+}
+
+p{
+    color: blueviolet;
+}
