@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table,tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Time Table</caption>
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="5">Seminar</th>
+        </tr>
+
+        <tr>
+   
+            <th colspan="2">Schedule</th>
+            <th colspan="3" rowspan="2">Topic</th>
+        </tr>
+        
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 am</td>
+            <td rowspan="2">5:00 pm</td>
+            <td colspan="3">Introduction to HTML</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Introduction to CSS</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 am</td>
+            <td>11:00 am</td>
+            <td colspan="3">Javascript</td>
+        </tr>
+
+        <tr>
+            <td>11:00 am</td>
+            <td>2:00 pm</td>
+            <td colspan="3" rowspan="2">Introduction to API</td>
+        </tr>
+
+        <tr>
+            <td>2:00 pm</td>
+            <td>5:00 pm</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 am</td>
+            <td>12:00 pm</td>
+            <td colspan="3">HTML</td>
+        </tr>
+    </table>
+</body>
+</html>
