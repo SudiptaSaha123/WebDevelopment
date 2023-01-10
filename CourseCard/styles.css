@@ -1,0 +1,67 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+#box{
+    height: 28em;
+    width: 31em;
+    box-shadow: 1px 2px 20px 0px rgb(215, 215, 215);
+    border-radius: 0.8em;
+    box-sizing: border-box;
+    padding-top: 1.2em;    
+}
+
+#course-banner{
+    height: 16em;
+    width: 90%;
+    display: block;
+    border-radius: 0.8em;
+    box-shadow: 1px 2px 20px 0px rgb(215, 215, 215);
+
+}
+
+#heading{
+    margin-top: 3em;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    line-height: 1.4em;
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+#divider{
+    width: 90%;
+    margin-top: 1.4em;
+    border-style: none;
+    border-top: 2px solid rgb(240, 240, 240);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#c_price{
+    color: #6674CC;
+    font-weight: 600;
+    padding-top: 5em;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+#price{
+    font-weight: 600;
+    opacity: 50%;
+    font-size: 20px;
+}
+
+#percentage{
+    background-color: #1dd1a1;
+    color: white;
+    margin-left: 43%;
+    border-radius: 5px;
+    padding: 0.3rem;
+    font-size: 15px;
+    font-weight: 600;
+}
