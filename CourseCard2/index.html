@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Card</title>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        #box{
+            width: 25%;
+            margin: 20px;
+            padding: 15px;
+            box-shadow: 2px 2px 10px 10px rgb(227, 227, 227); 
+            border-radius: 3%;
+        }
+
+        #banner{
+            width: 100%;
+            border-radius: 3%;
+        }
+
+        #heading{
+            font-size: 20px;
+            margin-top: 3%;
+        }
+
+        hr{
+            border: 1px solid #ededed;
+            width: 250px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+        #price-discount{
+            padding-top: 5%;
+            color: #6674CC;
+        }
+
+        #price{
+            margin-left: 5%;
+            opacity: 50%;
+        }
+
+        #offer{
+            margin-left: 48%;
+            background-color: #1dd1a1;
+            padding: 0.5em;
+            border-radius: 5px;
+            font-size: 85%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <img src="banner.jpeg" alt="course-banner" id="banner">
+        <h1 id="heading">Data Structures & Algorithms BootCamp @Supreme Batch</h1>
+        <hr>
+        <span id="price-discount">₹3500</span>
+        <span id="price"><del>₹7000</del></span>
+        <span id="offer">50% off</span>
+    </div>
+
+    <div id="box">
+        <img src="banner2.jpeg" alt="course-banner" id="banner">
+        <h1 id="heading">Web Development Master Course @dot Batch</h1>
+        <hr>
+        <span id="price-discount">₹4500</span>
+        <span id="price"><del>₹6999</del></span>
+        <span id="offer">42% off</span>
+    </div>
+</body>
+</html>
