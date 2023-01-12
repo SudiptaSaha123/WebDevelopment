@@ -1,0 +1,57 @@
+#parent{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: 1px solid black;
+    position: relative;
+}
+
+#mid{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#box1{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#box2{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#box3{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#box4{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
