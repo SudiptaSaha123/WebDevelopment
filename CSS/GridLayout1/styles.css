@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    border: 3px solid orange;
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-columns: 150px 1fr 1fr;
+}
+
+.box{
+    background-color: greenyellow;
+    border: 3px solid orange;
+}
+
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#box3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#box4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
