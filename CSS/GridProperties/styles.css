@@ -1,0 +1,39 @@
+.container{
+    border: 1px solid red;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+    /* align-items: baseline;
+    align-items: start;
+    align-items: end; */
+
+    align-content: space-between;
+    align-content: space-around;
+}
+
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+}
+
+#box1{
+    /* justify-self: start;
+    justify-self: center;
+    justify-self: end; */
+
+    /* align-self: center;
+    align-self: start; */
+    align-self: end;
+}
