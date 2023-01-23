@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    height: 215px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.box{
+    height: 212px;
+    width: 212pxpx;
+    border: 2px solid green;
+    background-color: aqua;
+
+    animation-name: grow;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    /* animation-delay: 1s; */
+    /* animation-iteration-count: 3; */
+    /* animation-iteration-count: infinite; */
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow{
+    0%{
+        width: 212px;
+        background-color: aqua;
+        /* transform: scale(0.2); */
+    }
+
+    30%{
+        width: 35%;
+        background-color: blue;
+        /* transform: scale(0.5); */
+    }
+
+    65%{
+        width: 70%;
+        background-color: green;
+        /* transform: scale(0.7); */
+    }
+
+    100%{
+        width: 100%;
+        background-color: hotpink;
+        /* transform: scale(1); */
+    }
+}
+/* @keyframes grow{
+    from{
+        width: 212px;
+    }
+
+    to{
+        width: 100%;
+    }
+} */
