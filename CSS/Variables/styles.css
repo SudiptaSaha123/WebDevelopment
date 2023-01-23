@@ -1,0 +1,26 @@
+:root{
+    --text-color: #f409dc;
+}
+.container{
+    background-color: aqua;
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+    gap: 10px;
+    padding: 30px;
+}
+
+.box{
+    --dark-color: #13ed13;
+    background-color: var(--dark-color);
+    color: var(--text-color);
+}
+
+h1{
+    color: var(--text-color);
+}
