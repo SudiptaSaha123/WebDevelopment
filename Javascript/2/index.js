@@ -1,49 +1,43 @@
-console.log('Chaliye shuru karte hai ');
+// console.log('JAVASCRIPT BASICS');
 
-//object create
+//CREATION OF OBJECT
+
 // let rectangle = {
-//     length: 1,
-//     breadth: 2,
-
-//     draw: function() {
-//         console.log('drawing rectangle');
+//     length:2,
+//     width:2,
+//     draw: function(){
+//         console.log("DRAWING A RECTANGLE");
 //     }
 // };
 
-//factory function 
+// //FACTORY FUNCTION
 
-// function createRectangle(len, bre) {
+// function createRectangle(len, bre){
+//     return rectangle = {
+//         length:len,
+//         breadth:bre,
+//         draw(){
+//             console.log("DRAWING A RECTANGLE");
+//         }        
+//     };
+// };
 
-//     const rectangle = {
-//         length: len,
-//         breadth:bre ,
-
-//         draw() {
-//             console.log('drawing rectangle');
-//         }
-// //     };
-//     return rectangle;
-// }
-
-// let rectangleObj1 = createRectangle(5, 4);
-// let rectangle2 = createRectangle(2,3);
-// let rectangle3 = createRectangle(7,9);
+// let rectangle1 = createRectangle(2,4);
+// let rectangle2 = createRectangle(2,34);
+// let rectangle3 = createRectangle(6,14);
 
 //Camelcase -> numberOfStudents
-//constructor function -> Pascal Notation -> first letter of every word is Capital -> NumberOfStudents
-//constructor function -> prop/methods -> intialise/Define
-// function Rectangle(len, bre) {
-//     this.length = len;
-//     this.breadth = bre;
-//     this.draw= function() {
-//         console.log('drawing');
-//     }
-// }
+//Constructor Function -> Pascal Notation -> First letter of every word is capital -> NumberOfStudents
 
-// Rectangle.
+function Rectangle(len,bre){
+    this.length = len;
+    this.breadth = bre;
+    this.draw = function(){
+        console.log("DRAWING A RECTANGLE");
+    }
+}
 
-// //object creation using constrcutor function
-// let rectangleObject = new Rectangle(4,6);
+let rectangleObject = new Rectangle(6,7);
 
 // rectangleObject.color = 'yellow';
 // console.log(rectangleObject);
@@ -53,13 +47,13 @@ console.log('Chaliye shuru karte hai ');
 
 // let Rectangle1 = new Function(
 //     'length', 'breadth',
-// `this.length = length;
-// this.breadth = breadth;
-// this.draw= function() {
-//     console.log('drawing');
-// }`);
+//     `this.length = length;
+//      this.breadth = breadth;
+//      this.draw= function() {
+//      console.log('drawing');
+//      }`);
 
-// //object creation using Rectangle1
+//Object Creation Using Rectangle1
 // let rect = new Rectangle1(2,3);
 
 // rect.length;
@@ -69,28 +63,6 @@ console.log('Chaliye shuru karte hai ');
 
 // rectangle.length;
 // rectangle.breadth;
-
-// rectangle.draw();
-
-// let rectangle1 = {
-//     length: 1,
-//     breadth: 2,
-
-//     draw: function() {
-//         console.log('drawing rectangle');
-//     }
-// };
-
-
-// let rectangle2 = {
-//     length: 1,
-//     breadth: 2,
-
-//     draw: function() {
-//         console.log('drawing rectangle');
-//     }
-// };
-
 
 // let a = 10;
 // let b = a;
@@ -128,10 +100,6 @@ console.log('Chaliye shuru karte hai ');
 
 // console.log(a.value);
 
-let rectangle = {
-    length:2,
-    breadth:4
-};
 
 //for-in loop 
 // for(let key in rectangle ) {
