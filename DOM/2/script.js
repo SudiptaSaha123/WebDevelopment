@@ -1,21 +1,18 @@
-function clickedFunction(){
-    console.log('I am clicked');
-};
+// document.addEventListener('click',function(){
+//     console.log('You clicked me');
+// })
 
-document.addEventListener('click', clickedFunction);
+function clicked(){
+    console.log('You clicked');
+}
 
-document.removeEventListener('click', clickedFunction);
-
-const content = document.querySelector('h1');
-
-content.addEventListener('click', function(event){
-    console.log(event);
-})
+document.addEventListener('click',clicked);
+document.removeEventListener('click',clicked);
 
 let links = document.querySelectorAll('a');
-let thirdLink = links[2];
+let link = links[2];
 
-thirdLink.addEventListener('click', function(event){
+link.addEventListener('click', function(event){
     event.preventDefault();
-    console.log('No');
+    console.log('NOOOOOOOOOO');
 });
