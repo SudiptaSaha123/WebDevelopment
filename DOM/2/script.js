@@ -33,9 +33,9 @@
 
 // document.body.appendChild(myDiv);
 
-let element = document.querySelector('#wrapper');
-element.addEventListener('click', function(event){
-    if(event.target.nodeName === 'SPAN'){
-        console.log('Span I am '+ event.target.textContent);
-    }
-})
+// let element = document.querySelector('#wrapper');
+// element.addEventListener('click', function(event){
+//     if(event.target.nodeName === 'SPAN'){
+//         console.log('Span I am '+ event.target.textContent);
+//     }
+// })
